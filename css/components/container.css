@@ -1,0 +1,46 @@
+.container {
+	width: 700px;
+	margin: 0 auto;
+	text-align: center; 
+}
+
+@media (max-width: 900px) {
+	.container {
+		width: 700px;
+	}
+}
+
+@media (max-width: 700px) {
+	.container {
+		width: 550px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.container h2 {
+	margin-top: 100px;
+}
+
+
+#btn {
+	margin: 80px auto;
+}
+
+#freestyle-section {
+	margin: 80px auto;
+}
+
+.skis {
+	width: 180px;
+	height: 180px;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	border-radius: 15px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+}

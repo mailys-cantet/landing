@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&family=Montagu+Slab:opsz,wght@16..144,100..700&display=swap");
+
+@import url("components/container.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/card-white.css");
+@import url("components/banner2.css");
+
+body {
+	font-family: "Montagu Slab", serif;
+	font-size: 18px;
+	margin: 0px;
+}
+
+h1, h2, h3 {
+	font-family: "Macondo Swash Caps", cursive;
+}
+
+a {
+	text-decoration: none;
+}
+
+#intro h1 {
+	margin-top: 0px;
+}
+
+#intro h2 {
+	margin-top: 10px;
+	margin-bottom: 100px;
+}
+
